@@ -1,1 +1,0 @@
-[] execVM "wardrobe\skins_main.sqf";
