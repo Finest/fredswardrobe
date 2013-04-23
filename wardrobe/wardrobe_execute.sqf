@@ -1,0 +1,1 @@
+[] execVM "wardrobe\wardrobe_main.sqf";

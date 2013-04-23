@@ -18,17 +18,17 @@ Step 3: Open your init.sqf and find the following line of code:
 Step 4: Directly underneath that line of code past the following:
 
 // Fred's Wardrobe
-skinsmenu = compile preprocessFileLineNumbers "wardrobe\skins_main.sqf";
+wardrobe = compile preprocessFileLineNumbers "wardrobe\wardrobe_main.sqf";
 
 Step 5: At the bottom of your init.sqf, past the following:
 
 // Fred's Wardrobe
-[] execVM "wardrobe\skins_activate.sqf";
+[] execVM "wardrobe\wardrobe_activate.sqf";
 
 Step 6: Repack your dayz mission pbo and upload to your server.
 ----------------------------------------------------------------------------------------------
 
-How to make skins stay through logging out or restarts:
+How to make clothing stay through logging out or restarts:
 ----------------------------------------------------------------------------------------------
 Step 1: Unpack your dayz server pbo.
 
@@ -60,15 +60,15 @@ Step 1: Load into your DayZ server.
 
 Step 2: Use your scroll wheel to bring up the Wardrobe option.
 
-Step 3: Select "Wardrobe" to bring up a menu of DayZ and Custom Skins.
+Step 3: Select "Wardrobe" to bring up a menu of DayZ and Custom clothing.
 
-Step 4: Select "DayZ Skins" or "Custom Skins" to see a list of available skins.
+Step 4: Select "DayZ Clothing" or "Custom Clothing" to see a list of available clothing.
 
-Step 5: Select the skin you would like to wear.
+Step 5: Select the clothing you would like to wear.
 
-Hint: You will not be able to change skins while in combat.
+Hint: You will not be able to change clothing while in combat.
 
-Once you have changed skins you will receive a message saying "...looking good. Wardrobe closed for 1 minute."
+Once you have changed clothing you will receive a message saying "...looking good. Wardrobe closed for 1 minute."
 
 After 60 seconds you will be able to access the "Wardrobe" option through the scroll wheel again.
 -----------------------------------------------------------------------------------------------
@@ -79,5 +79,5 @@ FAQ:
 Q: I just loaded into my server. Why am I not getting a wardrobe option in game?
 A: Try going back to the lobby and then enter your server again.  If this doesn't work make sure you followed the installation directions correctly.
 
-Q: I just changed my skin and I have waited over 60 seconds.  Why am I not getting the wardrobe option again?
+Q: I just changed my clothing and I have waited over 60 seconds.  Why am I not getting the wardrobe option again?
 A: Try going back to the lobby and then enter your server again.
