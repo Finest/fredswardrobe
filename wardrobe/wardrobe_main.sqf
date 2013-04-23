@@ -4,8 +4,8 @@ if ((getPlayerUID player) in ["#########"]) then {
 wardrobe =
 [
 	["",true],
-		["DayZ Skins", [2], "#USER:WardrobeDayZ", -5, [["expression", ""]], "1", "1"],
-		["Custom Skins", [3], "#USER:WardrobeCustom", -5, [["expression", ""]], "1", "1"],
+		["DayZ Clothing", [2], "#USER:WardrobeDayZ", -5, [["expression", ""]], "1", "1"],
+		["Custom Clothing", [3], "#USER:WardrobeCustom", -5, [["expression", ""]], "1", "1"],
 		["", [-1], "", -5, [["expression", ""]], "1", "0"],
 			["Exit", [13], "", -3, [["expression", ""]], "1", "1"]
 		
@@ -13,8 +13,8 @@ wardrobe =
 wardrobe =
 [
 	["",true],
-		["DayZ Skins", [2], "#USER:WardrobeDayZ", -5, [["expression", ""]], "1", "1"],
-		["Custom Skins", [3], "#USER:WardrobeCustom", -5, [["expression", ""]], "1", "1"],
+		["DayZ Clothing", [2], "#USER:WardrobeDayZ", -5, [["expression", ""]], "1", "1"],
+		["Custom Clothing", [3], "#USER:WardrobeCustom", -5, [["expression", ""]], "1", "1"],
 		["", [-1], "", -5, [["expression", ""]], "1", "0"],
 			["Exit", [13], "", -3, [["expression", ""]], "1", "1"]
 ];
