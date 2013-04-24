@@ -22,7 +22,7 @@ if (!_hascompassitem ) then {
     player removeWeapon "ItemCompass";
 };
 if (!_haswatchitem ) then {
-    player removeWeapon "ItemMap";
+    player removeWeapon "ItemWatch";
 };
 player removeWeapon "ItemRadio";
 // -------------------------------------------Item Fix End-------------------------------------------
